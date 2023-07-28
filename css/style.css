@@ -333,18 +333,6 @@ h1:hover .borda{
     width: 30px;
     position: relative;
     height: 30px;
-    animation: link 2s ease-out infinite;
-}
-@keyframes link {
-    0%{
-        top: 0;
-    }
-    50%{
-        top: -2px;
-    }
-    100%{
-        top: 0px;
-    }
 }
 /* aqui começa a section sobre! */
 
