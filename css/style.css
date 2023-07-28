@@ -316,7 +316,7 @@ h1:hover .borda{
     position: absolute;
     top: -20px;
     right: -20px;
-    background-color: rgba(255, 0, 0, 0.8);
+    background-color: rgba(255, 0, 0, 1);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -328,6 +328,23 @@ h1:hover .borda{
     text-decoration: underline;
     display: inline-block;
     cursor: pointer;
+}
+.t i{
+    width: 30px;
+    position: relative;
+    height: 30px;
+    animation: link 2s ease-out infinite;
+}
+@keyframes link {
+    0%{
+        top: 0;
+    }
+    50%{
+        top: -2px;
+    }
+    100%{
+        top: 0px;
+    }
 }
 /* aqui começa a section sobre! */
 

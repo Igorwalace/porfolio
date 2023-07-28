@@ -22,7 +22,7 @@ el.addEventListener('click', ()=>{
     let interno = document.querySelectorAll('.box-cobrir')
     interno[0].style.display = 'block'
 
-    let link2 = document.querySelectorAll('.two')[0]
+    let link2 = document.querySelectorAll('.two h1')[0]
     link2.addEventListener('click',()=>{
         open('https://jokenpo-igor.netlify.app/')
     })
