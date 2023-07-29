@@ -218,7 +218,7 @@ h1:hover .borda{
     background-color: white;
     margin-top: 30px;
     margin-left: 15px;
-    border: 2px solid #dcb187;
+    border: 3px solid #dcb187;
     border-radius: 20px;
     box-shadow: 5px 3px #dcb187;
     cursor: pointer;
@@ -228,28 +228,37 @@ h1:hover .borda{
     padding: 10px;
 }
 .box-projeto .conteudo h1{
-    color: #043c4b;
+    color: #dcb187;
     font-size: 30px;
+    padding: 10px 0;
     cursor: pointer;
-    padding: 7px;
 }
 .box-projeto .conteudo h2{
     color: #043c4b;
     font-size: 27px;
     cursor: pointer;
-    border-bottom: 4px solid #dcb187;
-    padding: 0 10px;
+    padding: 10px;
+    background-color: #dcb187;
+    border-radius: 20px;
+}
+.box-projeto .conteudo .link{
+    text-decoration: underline;
+    background-color: #043c4b;
+    color: #dcb187;
 }
 .box-projeto .conteudo2{
     display: none;
 }
+.projeto1{
+    background-color: #043c4b;
+}
 .conteudo2 h1{
     padding: 0 10px;
-    border-bottom: 4px solid #dcb187;
     color: #043c4b;
     font-size: 30px;
     cursor: pointer;
     padding: 7px;
+    text-decoration: underline;
 }
 .box-projeto:nth-child(1):hover .conteudo{
     display: none;
@@ -283,6 +292,7 @@ h1:hover .borda{
     box-shadow: 5px 3px #ffffff;
 }
  /* aqui começa testes */
+  /* deu tudo certo! */
 
 .box-cobrir{
     position: absolute;
@@ -323,7 +333,7 @@ h1:hover .borda{
 .t h1{
     padding: 10px;
     color: #043c4b;
-    background-color: #ffffff;
+    background-color: #dcb187;
     border-radius: 20px;
     text-decoration: underline;
     display: inline-block;
