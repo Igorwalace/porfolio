@@ -473,21 +473,22 @@ section.contato .box-contato{
 footer{
     width: 100%;
     text-align: center;
-    padding: 05px 2%;
+    padding: 10px 2%;
 }
 footer span{
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #043c4b;
+    font-size: 20px;
 }
 footer span a{
-    text-decoration: none;
     color: #043c4b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     white-space: pre;
 }
 footer span:hover a{
-    text-decoration: underline;
+    color: #10738f;
 }
 @media screen and (max-width: 768px){
     header .desktop ul li{
