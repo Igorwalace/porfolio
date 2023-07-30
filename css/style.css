@@ -201,7 +201,7 @@ section.main .texto h2{
     transition: 1s;
 }
 h1:hover .borda{
-    width: 317.31px;
+    width: 218px;
 }
 .container-projeto{
     padding-top: 20px;
@@ -244,7 +244,7 @@ h1:hover .borda{
 .box-projeto .conteudo .link{
     text-decoration: underline;
     background-color: #043c4b;
-    color: #dcb187;
+    color: #ffff;
 }
 .box-projeto .conteudo2{
     display: none;
@@ -320,7 +320,7 @@ h1:hover .borda{
     border: 5px solid #dcb187;
     z-index: 5;
 }
-.cobrir img{
+.cobrir img, .sobre-blur img{
     width: 50px;
     height: 50px;
     position: absolute;
@@ -344,6 +344,29 @@ h1:hover .borda{
     position: relative;
     height: 30px;
 }
+.sobre-blur{
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #043c4b;
+    border-radius: 25px;
+    border: 5px solid #dcb187;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.sobre-blur h1{
+    color: #043c4b;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #dcb187;
+}
+
 /* aqui começa a section sobre! */
 
 section.sobre{
@@ -529,6 +552,11 @@ footer span:hover a{
         padding: 10px;
         justify-content: space-evenly;
         top: 27%;
+    }
+    .sobre-blur{
+        min-width: 75%;
+        min-height: 20%;
+        top: 20%;
     }
 }
 @media screen and (max-width: 570px){
