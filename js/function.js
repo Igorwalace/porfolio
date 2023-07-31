@@ -16,33 +16,66 @@ addEventListener("scroll",function(){
         })
     })
 
-    // projeto
-    var el = document.getElementById('projeto1')
-    el.addEventListener('click', ()=>{
-    var interno = document.querySelectorAll('.box-cobrir')
-    interno[0].style.display = 'block'
+    
+    // projeto1
+    var elP1 = document.getElementById('projeto1')
+    elP1.addEventListener('click', ()=>{
+    var internoP1 = document.querySelectorAll('.box-cobrir-projeto1')
+    internoP1[0].style.display = 'block'
 
-    let link2 = document.querySelectorAll('.two h1')[0]
-    link2.addEventListener('click',()=>{
+    let linkP1 = document.querySelectorAll('.two h1')[0]
+    linkP1.addEventListener('click',()=>{
         open('https://jokenpo-igor.netlify.app/')
     })
 
-    let link3 = document.querySelectorAll('.tree h1')[0]
-    link3.addEventListener('click', ()=>{
-        let cobriNone = document.querySelectorAll('.cobrir')[0]
-        var b1 = document.querySelectorAll('.sobre-blur')[0]
-        b1.style.display = 'flex'
+    let sobreP1 = document.querySelectorAll('.tree h1')[0]
+    sobreP1.addEventListener('click', ()=>{
+        let cobriNone = document.querySelectorAll('.cobrir-projeto1')[0]
+        var p1 = document.querySelectorAll('.sobre-blur-projeto1')[0]
+        p1.style.display = 'flex'
         cobriNone.style.display = 'none'
 
-        document.querySelectorAll('.sobre-blur img')[0]
+        document.querySelectorAll('.sobre-blur-projeto1 img')[0]
         .addEventListener('click', ()=>{
-            b1.style.display = 'none'
+            p1.style.display = 'none'
             cobriNone.style.display = 'flex'
         })
     })
     
-    document.querySelectorAll('.cobrir img')[0]
+    document.querySelectorAll('.cobrir-projeto1 img')[0]
     .addEventListener('click', ()=>{
-        interno[0].style.display = 'none'
+        internoP1[0].style.display = 'none'
+    })
+})
+
+
+    // projeto2
+    var elP2 = document.getElementById('projeto2')
+    elP2.addEventListener('click', ()=>{
+    var internoP2 = document.querySelectorAll('.box-cobrir-projeto2')
+    internoP2[0].style.display = 'block'
+
+    var linkP2 = document.getElementById('twoH1')
+    linkP2.addEventListener('click',()=>{
+        open('https://pokedex-igor.netlify.app/')
+    })
+
+    let sobreP2 = document.getElementById('treeH1')
+    sobreP2.addEventListener('click', ()=>{
+        let cobriNoneP2 = document.querySelectorAll('.cobrir-projeto2')[0]
+        var p2 = document.querySelectorAll('.sobre-blur-projeto2')[0]
+        p2.style.display = 'flex'
+        cobriNoneP2.style.display = 'none'
+
+        document.querySelectorAll('.sobre-blur-projeto2 img')[0]
+        .addEventListener('click', ()=>{
+            p2.style.display = 'none'
+            cobriNoneP2.style.display = 'flex'
+        })
+    })
+    
+    document.querySelectorAll('.cobrir-projeto2 img')[0]
+    .addEventListener('click', ()=>{
+        internoP2[0].style.display = 'none'
     })
 })
