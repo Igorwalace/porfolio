@@ -259,7 +259,7 @@ h1:hover .borda{
 .projeto1-conteudo2 h1,
 .projeto2-conteudo2 h1{
     padding: 0 10px;
-    color: #043c4b;
+    color: #ffffff;
     font-size: 30px;
     cursor: pointer;
     padding: 7px;
@@ -294,9 +294,12 @@ h1:hover .borda{
     }
 }
 .box-projeto:hover{
-    background-color: #f3dac1;
+    background-color: #205768;
     border: 3px solid #ffffff;
     box-shadow: 5px 3px #ffffff;
+}
+.box-projeto:hover h1{
+    color: white;
 }
  /* aqui começa testes */
   /* deu tudo certo! */
@@ -426,6 +429,7 @@ section.contato{
     background-color: #043c4b;
     padding: 30px 2%;
     padding-bottom: 40px;
+    border-radius: 15px;
 }
 .contato > .center{
     color: white;
