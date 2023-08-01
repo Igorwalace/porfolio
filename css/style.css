@@ -542,6 +542,9 @@ footer span:hover a{
     .container-projeto{
         flex-wrap: wrap;
     }
+    h1:hover .borda{
+    width: 135px;
+    }
     .box-projeto{
         margin: 20px 10px;
     }
