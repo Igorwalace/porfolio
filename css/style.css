@@ -537,6 +537,12 @@ footer span:hover a{
     header .menu{
         display: block;
     }
+    header ul li a:hover{
+        text-decoration: none;
+    }
+    header ul li a:hover{
+        text-decoration: none;
+    }
     section.main .texto{
         font-size: 20px;
     }
