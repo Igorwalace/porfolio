@@ -537,7 +537,7 @@ footer span:hover a{
     header .menu{
         display: block;
     }
-    header ul li a:hover{
+    header .logo a:hover{
         text-decoration: none;
     }
     header ul li a:hover{
