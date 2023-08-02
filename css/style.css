@@ -51,10 +51,11 @@ header .logo a{
     font-size: 16px;
     text-decoration: none;
     color: rgb(253, 253, 253);
-    transition: 1s;
+    transition: .5s;
 }
 header .logo a:hover{
     color: #043c4b;
+    text-decoration: underline;
 }
 header .desktop ul li a{
     color:#043c4b;
@@ -62,8 +63,8 @@ header .desktop ul li a{
     font-size: 23px;
     transition: 1s;
 }
-header .desktop ul li a:hover{
-    color: #043c4b;
+header ul li a:hover{
+    text-decoration: underline;
 }
 header ul li{
     padding: 0 20px;
@@ -409,7 +410,7 @@ section.sobre{
     max-width: 420px;
     min-height: 240px;
     padding: 10px 13px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     background-color: #043c4b;
     border-radius: 20px;
     margin: 10px 10px;
@@ -494,7 +495,7 @@ section.contato .box-contato{
     left: 0;
 }
 .box-contato span:hover{
-    color: #817f7f;
+    text-decoration: underline;
 }
 .box-contato a{
     margin: 0 15px;
@@ -547,7 +548,7 @@ footer span:hover a{
         flex-wrap: wrap;
     }
     h1:hover .borda{
-    width: 135px;
+        width: 135px;
     }
     .box-projeto{
         margin: 20px 10px;
