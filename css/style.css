@@ -566,6 +566,9 @@ footer span:hover a{
     .box-sobre-single{
         flex-wrap: wrap;
     }
+    .box-sobre{
+        max-width: 90%;
+    }
     .footer {
         font-size: 15px;
     }
