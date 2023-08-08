@@ -72,10 +72,14 @@ header ul li{
 }
 /*menu MOBILE*/
 header .mobile{
-    width: 60%;
+    width: 70%;
     opacity: 0;
+<<<<<<< HEAD
     display: none;
     transition: .6s;
+=======
+    transition: .7s;
+>>>>>>> 8dbf99faa279282df2c3968287faa7cfe34622cf
     height: 85vh;
     background-color: #043c4b;
     border: 2px solid #ffffff;

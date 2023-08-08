@@ -19,9 +19,7 @@ addEventListener("scroll",function(){
             img.src = '../imagens/MENU MOBILE.png'
         }else{
             menu1.classList.add('show')
-            setTimeout(()=>{
-                img.src = '../imagens/MENU CLOSE.png'
-            },100)
+            img.src = '../imagens/MENU CLOSE.png'
         }
     })
     
