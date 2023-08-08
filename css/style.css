@@ -471,7 +471,7 @@ section.contato{
 }
 
 section.contato .box-contato{
-    padding: 30px;
+    padding: 20px;
     padding-bottom: 18px;
     color: #043c4b;
     font-size: 18px;
@@ -544,6 +544,12 @@ footer span:hover a{
     header .menu{
         display: block;
     }
+    header .logo a:hover{
+        text-decoration: none;
+    }
+    header ul li a:hover{
+        text-decoration: none;
+    }
     section.main .texto{
         font-size: 20px;
     }
@@ -566,6 +572,9 @@ footer span:hover a{
     }
     .box-sobre-single{
         flex-wrap: wrap;
+    }
+    .box-sobre{
+        max-width: 90%;
     }
     .footer {
         font-size: 15px;
@@ -596,6 +605,10 @@ footer span:hover a{
         min-width: 75%;
         min-height: 20%;
         top: 41.5%;
+    }
+    footer span,
+    footer a{
+        font-size: 17px;
     }
 }
 @media screen and (max-width: 570px){
