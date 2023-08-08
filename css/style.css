@@ -73,7 +73,8 @@ header ul li{
 /*menu MOBILE*/
 header .mobile{
     width: 60%;
-    display: none;
+    opacity: 0;
+    transition: .6s;
     height: 85vh;
     background-color: #043c4b;
     border: 2px solid #ffffff;
@@ -82,6 +83,18 @@ header .mobile{
     position: absolute;
     top: 10px;
     left: 10px;
+}
+header .menu{
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+.menu img{
+    width: 30px;
+}
+header .show{
+    opacity: 1;
 }
 header .mobile a{
     text-decoration: none;
@@ -111,12 +124,6 @@ header .mobile .links-menu > a i{
 }
 header .mobile .links-menu a:hover i{
     color: #49636b;
-}
-header .menu{
-    font-size: 35px;
-    cursor: pointer;
-    display: none;
-    position: relative;
 }
 /*menu MOBILE terminou*/
 

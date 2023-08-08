@@ -10,12 +10,20 @@ addEventListener("scroll",function(){
         return false;
     })
 
-    $(function(){
-        $('.menu').click(function(){
-            $('.mobile').slideToggle()
-        })
+    var menu = document.querySelectorAll('header .menu')[0]
+    menu.addEventListener('click',()=>{
+        let menu1 = document.querySelectorAll('header .mobile')[0]
+        let img = document.querySelectorAll('header .menu img')[0]
+        if(menu1.classList.contains('show')){
+            menu1.classList.remove('show')
+            img.src = '../imagens/MENU MOBILE.png'
+        }else{
+            menu1.classList.add('show')
+            setTimeout(()=>{
+                img.src = '../imagens/MENU CLOSE.png'
+            },100)
+        }
     })
-
     
     // projeto1
     var elP1 = document.getElementById('projeto1')
